@@ -11,26 +11,25 @@ Project ini merupakan aplikasi backend sederhana yang menggunakan Node.js dan Ty
 
 ## Struktur Folder
 
-├── .env.example # Contoh file environment
-├── fix_users_table.sql # Skrip SQL untuk memperbaiki tabel users
-├── package-lock.json # Lock file npm
-├── package.json # Konfigurasi npm
-├── schema.sql # Skrip SQL untuk membuat skema database
-├── src/
-│ ├── helper/
-│ │ └── utils.ts # Fungsi utilitas
-│ ├── index.ts # Entry point aplikasi
-│ ├── middleware/
-│ │ ├── auth.ts # Middleware autentikasi
-│ │ └── error.ts # Middleware error handling
-│ ├── models/
-│ │ ├── Post.ts # Model Post
-│ │ ├── User.ts # Model User
-│ │ └── index.ts # Inisialisasi model
-│ └── routes/
-│ ├── auth.ts # Routing autentikasi
-│ └── posts.ts # Routing post
-└── tsconfig.json # Konfigurasi TypeScript
+├── .env.example           # Contoh file environment <br>
+├── package-lock.json      # Lock file npm <br>
+├── package.json           # Konfigurasi npm <br>
+├── schema.sql             # Skrip SQL untuk membuat skema database <br>
+├── src/ <br>
+│   ├── helper/ <br>
+│   │   └── utils.ts       # Fungsi utilitas <br>
+│   ├── index.ts           # Entry point aplikasi <br>
+│   ├── middleware/ <br>
+│   │   ├── auth.ts        # Middleware autentikasi <br>
+│   │   └── error.ts       # Middleware error handling <br>
+│   ├── models/ <br>
+│   │   ├── Post.ts        # Model Post <br>
+│   │   ├── User.ts        # Model User <br>
+│   │   └── index.ts       # Inisialisasi model <br>
+│   └── routes/ <br>
+│       ├── auth.ts        # Routing autentikasi <br>
+│       └── posts.ts       # Routing post <br>
+└── tsconfig.json          # Konfigurasi TypeScript <br>
 
 ## Instalasi
 
@@ -47,3 +46,4 @@ Project ini merupakan aplikasi backend sederhana yang menggunakan Node.js dan Ty
 ## Dokumentasi API
 
 - Swagger: `http://localhost:${PORT}/api-docs`
+
